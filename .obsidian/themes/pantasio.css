@@ -1,0 +1,723 @@
+     /* This Theme is called "Pkit" and Obsidian Theme created by Pantasio Le */
+
+     /* Last Update:
+        2021-08-05 16:48
+     */
+
+     :root
+     {
+     --font-monospace: "CaskaydiaCove NF", "Source Code Pro", monospace; /* "SauceCodePro NF" */
+	   --font-family-editor: "CaskaydiaCove NF", "Source Code Pro", monospace;
+     }
+
+     .theme-dark
+     {
+    --background-primary:         #0d131b;			/* #0d1117; */
+    --background-primary-alt:     #0b191f;	/* old #242424*/
+    --background-secondary:       #191919;
+    --background-secondary-alt:   #0d131b;
+    --text-normal:                #ffefb7;	/* Old #faf2d6;*/
+    --text-faint:                 #4eafb5;	/* old #bdae93; */
+    --text-title-h1:              #c7c400;  /*  Original all header is #E0E0E0; */
+    --text-title-h2:              #b9adff;
+    --text-title-h3:              #52c1da;
+    --text-title-h4:              #67c073;
+    --text-title-h5:              #de87ca;
+    --text-title-h6:              #b4b4b4;
+    --text-highlight-bg:          #ce0e5f; /*old #640211; */
+    --text-link:                  #83a598;
+	  --text-coder:					        #689fda;	
+    --text-a-hover:               #83a598; 
+    --text-accent-hover:          #D49335;
+	/* ^^^ added for hover over bracket internal links */
+    --inline-code:                #83a598; 
+    --code-block:                 #83a598; 
+    --text-a:                     #f8c537; 
+    --interactive-accent:         #f8c537;
+    --text-accent:                #f8c537; 
+    --text-on-accent:             #fff;
+    --interactive-accent-rgb:     #f8c537; 
+    --vim-cursor:                 #f8c537; 
+     /*  --text-mark:                  add text-mark if needed, this should work together with 'mark' */
+    --pre-code:                   #;
+    --interactive-before:         	#7c6f64;
+    --background-modifier-border: 		#f8c537;
+	  --background-modifier-form-field: 	#0d131b;
+	  --background-modifier-cover: 		#0d131b;
+    --text-selection:             	#981b50;	/*old #a71f33;*/
+     }
+
+      .theme-dark .cm-s-obsidian span.obsidian-search-match-highlight {
+      color: var(--text-normal);
+      background-color: #483699;
+      }
+
+     .theme-light
+     {
+         --background-primary:         #C4C4C4;
+         --background-primary-alt:     #C4C4C4;
+         --background-secondary:       #C4C4C4; /* thick menu border */
+         --background-secondary-alt:   #bebebe; /* ← ↓  corner */
+         --text-normal:                #1A2023;
+         --text-faint:                 #665c54;
+         --text-title-h1:              #D49335;
+         --text-title-h2:              #D49335;
+         --text-title-h3:              #D49335;
+         --text-title-h4:              #D49335;
+         --text-title-h5:              #D49335;
+         --text-link:                  #D49335;
+         --text-a-hover:               #D49335;
+         --text-accent-hover:          #D49335;
+/* ^^^ added for hover over bracket internal links */
+         --inline-code:                #458588;
+         /*  --text-mark:                  add if needed */
+         --pre-code:                   #bebebe;
+         /*  --text-highlight-bg:          add if needed */
+         --interactive-before:         #a89984;
+         --background-modifier-border: #D49335;
+         --text-a:                     #961327;
+         --interactive-accent:         #961327;
+         --text-accent:                #961327;
+         --interactive-accent-rgb:     #961327;
+         --vim-cursor:                 #961327;
+         --text-selection:             #EDC180;
+     }
+
+
+/* EDITOR headings */
+
+
+    .cm-header-1 {
+		font-family: var(--font-family-editor);
+		font-weight: 500;
+		font-size: 28px;
+		font-weight: bold;
+		color: var(--text-title-h1) !important;
+    }
+
+    .cm-header-2 {
+		font-family: var(--font-family-editor);
+		font-weight: 500;
+		font-size: 26px;
+		font-weight: bold;
+		color: var(--text-title-h2) !important;
+    }
+
+    .cm-header-3 {
+		font-family: var(--font-family-editor);
+		font-weight: 500;
+		font-size: 23px;
+		font-weight: bold;
+		color: var(--text-title-h3) !important;
+    }
+
+    .cm-header-4 {
+		font-family: var(--font-family-editor);
+		font-weight: 500;
+		font-size: 19px;
+		font-weight: bold;
+		line-height: 30px;
+		color: var(--text-title-h4) !important;
+    }
+
+    .cm-header-5 {
+		font-family: var(--font-family-editor);
+		font-weight: 500;
+		font-size: 18px;
+		font-weight: bold;
+		line-height: 30px;
+		color: var(--text-title-h5) !important;
+    }
+
+    .cm-header-6 {
+		font-family: var(--font-family-editor);
+		font-weight: 500;
+		font-size: 16px;
+		font-weight: bold;
+		line-height: 30px;
+		color: var(--text-title-h6) !important;
+    }
+
+
+
+      .markdown-preview-view h1 {
+      font-size: 28px;
+      line-height: 24px;
+      color: var(--text-title-h1) !important;
+      }
+
+      .markdown-preview-view h2 {
+      font-size: 26px;
+      line-height: 24px;
+      color: var(--text-title-h2) !important;
+      }
+
+      .markdown-preview-view h3 {
+      font-size: 23px;
+      line-height: 24px;
+      color: var(--text-title-h3) !important;
+      }
+
+      .markdown-preview-view h4 {
+      font-size: 19px;
+      line-height: 24px;
+      color: var(--text-title-h4) !important;
+      }
+
+      .markdown-preview-view h5 {
+      font-size: 18px;
+      line-height: 24px;
+      color: var(--text-title-h5) !important;
+      }
+
+      .markdown-preview-view h6 {
+      font-size: 16px;
+      line-height: 24px;
+      color: var(--text-title-h6) !important;
+      }
+
+      /*-----------------------------------------*/
+      /* End of main theme, extra functionality can be added below */
+
+      .markdown-source-view { font-family: var(--font-monospace)
+      }
+
+     .cm-fat-cursor .CodeMirror-cursor {
+     background-color: #f8c537 !important;
+     opacity: 80% !important;
+     width: 9px !important; 
+     visibility: visible !important
+     }
+	 
+	/**********************/
+	/* BOLD AND ITALTICS */
+	/**********************/
+
+
+	strong {
+		color: #bac04f;
+		font-weight: 900; /*previous bold purple: b399fff2 ; alt: red cf6f6f ; alt: yellow bdba2d*/
+	}
+
+
+	em {
+		color: #bac04f; /*previous italic vegas gold: b8b894 ; alt: red ; alt: orange d6b456*/	
+	}
+
+	/* code blocks in preview */
+pre code
+{
+  padding: 6px !important;
+  line-height: normal;
+  display: block;
+  background-color: var(--pre-code) !important;
+}
+
+.markdown-preview-view pre
+{
+  padding: 0px !important;
+}
+
+/* in-line code for editor and preview and code block for editor*/
+code,
+.cm-inline-code
+{
+  background-color: var(--pre-code) !important;
+  color: var(--text-coder) !important;
+  bottom: 0px !important;
+}
+
+/* code and code blocks for preview */
+.markdown-preview-view code
+{
+  font-size: 13.5px;
+}
+
+/**********/
+/* tables */
+/********* See more at line 300 */
+
+
+/***************************************/
+/*             Presentation Mode              */
+/***************************************/
+
+
+.reveal h1 {
+    color: var(--text-title-h1);
+}
+
+.reveal h2 {
+    color: var(--text-title-h2);
+}
+
+.reveal h3 {
+    color: var(--text-title-h3);
+}
+
+.reveal h4 {
+    color: var(--text-title-h4);
+}
+
+.reveal h5 {
+    color: var(--text-title-h5);
+}
+
+.reveal h6 {
+    color: var(--text-title-h6);
+}
+
+
+/*************/
+/* checkboxes */
+/*************/
+
+
+/* Death-au */
+/* 3.9.3. Task lists! (I'm proud of this, but could use improvement) */
+.markdown-preview-view .task-list-item-checkbox {
+    -webkit-appearance: none;
+    top: 1.8px !important;
+    box-sizing: border-box;
+    border: 1px solid  #888888;
+    position: relative;
+    width: 1em;
+    height: 1em;
+    margin: 0;
+    margin-right: .7em;
+}
+
+
+.markdown-preview-view .task-list-item-checkbox:checked::before {
+    content: '✓';
+    position: absolute;
+    color: #999999;
+    font-size: 1em;
+    line-height: 1em;
+    width:1em;
+    text-align:center;
+    text-shadow: 0 0 0.1em #8d8d8d;
+}
+
+/* .markdown-preview-view .task-list-item-checkbox{
+  top: 0px;
+} */
+
+
+.checkbox-container {
+    background-color: #9196a1;
+    border-radius: 14px;
+    display: inline-block;
+    height: 22px;
+    position: relative;
+    top: 4px;
+    user-select: none;
+    width: 42px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.15);
+    transition: background 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border 0.15s ease-in-out, opacity 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.checkbox-container.is-enabled {
+    background-color: #5dbcd2;
+}
+
+
+.list-item-ending-flair {
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    font-size: 12px;
+    color: var(--text-accent);
+    background-color: var(--background-secondary-alt);
+    line-height: 12px;
+    border-radius: 3px;
+    padding: 2px 4px;
+}
+
+.list-item:hover .list-item-ending-flair {
+    color: var(--text-accent);
+    background-color: var(--background-secondary-alt);
+}
+
+
+button.mod-cta {
+    background-color: #5dbcd2;
+    color: #36393f;
+}
+
+
+.cm-hmd-frontmatter {
+    font-size: 13px;
+}
+
+
+
+
+	
+/*************/
+/* LEFT side dock --------- RIBBON*/
+/*************/
+
+
+.side-dock-ribbon {
+  background-color: var(--background-primary);
+}
+
+.side-dock-ribbon-tab-inner {
+  background-color: var(--background-primary);
+}
+
+.side-dock-ribbon-action {
+  background-color: var(--background-primary);
+}
+
+
+
+/* LEFT side dock ----- RIBBON FAILED ATTEMPTS*/
+side-dock-ribbon-tab is-before-active {
+  color: var(--background-primary);
+  background-color: var(--background-primary);
+}
+side-dock-ribbon-before is-before-active {
+  color: var(--background-primary);
+  background-color: var(--background-primary);
+}
+side-dock-ribbon-tab-inner is-before-active {
+  color: var(--background-primary);
+  background-color: var(--background-primary);
+}
+side-dock-ribbon-tab-inner {
+  color: var(--background-primary);
+  background-color: var(--background-primary);
+}
+
+.side-dock-plugin-panel.mod-file-explorer,
+.side-dock-plugin-panel.mod-starred,
+.side-dock-ribbon-tab.is-after-active,
+.side-dock-ribbon-before.is-before-active,
+.side-dock-ribbon-after.is-before-active {
+   background-color: var(--background-primary);
+}
+
+
+
+
+side-dock-ribbon-tab-inner is-after-active {
+  background-color: var(--background-primary);
+}
+
+.side-dock-ribbon-tab.is-active {
+  color: #cccccc !important;
+}
+
+
+.side-dock-title {
+  background-color: var(--background-primary);
+  }
+
+.nav-buttons-container {
+  background-color: var(--background-primary);
+  }
+  
+.nav-header {
+  background-color: var(--background-primary);
+  }
+
+
+/*************/
+/* LEFT side dock --------- FILE EXPLORER*/
+/*************/
+
+
+.nav-folder-title {  
+  color: var(--text-accent); 	/*Old #cccccc*/
+  background-color: var(--background-primary);
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: -2px;
+  }
+
+.nav-file-title {  
+  color: #999999;
+  background-color: #141414;
+  }
+  
+.nav-folder-children {
+    background-color: #141414;
+}
+
+
+/*************/
+/* RIGHT side dock SPECIAL STUFF*/
+/*************/
+
+/*Search result TEXT*/
+.search-result-file-matches{  
+  color: #999999;
+  background-color: var(--background-primary);}
+  
+.search-result-file-match:hover {
+    color: #d669bc;
+    background-color: var(--background-primary);}
+
+/*Search result TITLE*/
+.search-result-file-title {  
+  color: #5dbcd2;
+  background-color: var(--background-primary);}
+  
+.search-result-file-title:hover {
+	color: #d669bc;
+    background-color: #333333; /* filename hover*/}
+    
+/*Search result MATCHED TEXT*/
+.search-result-file-matched-text {  
+  color: #cccccc;
+  background-color: var(--background-primary);}
+
+/*Search result BACKGROUND*/
+.search-result-container {  
+  color: #999999;
+  background-color: var(--background-primary);}
+
+
+/*************/
+/* RIGHT side dock ******* RIBBON*/
+/*************/
+
+
+.side-dock-ribbon-tab.is-active .side-dock-ribbon-tab-inner:hover {
+    color: var(--text-normal) !important;
+    background-color: var(--background-primary);
+}
+
+
+.side-dock-ribbon-tab.is-active .side-dock-ribbon-tab-inner:hover {
+    color: #d669bc !important;
+    background-color: var(--background-primary);
+}
+/* for the PNG text, but can't specifically target "PNG", just all of those filetype tags. */
+.nav-file-tag{ color: var(--text-normal); } 
+.nav-file.is-active .nav-file-tag { color: var(--text-normal); }
+
+
+
+
+
+/* side dock text, like file names and backlink context */
+.side-dock-panels-container *
+{
+  font-size: 13px !important;
+}
+
+.side-dock-plugin-panel-inner  {
+    
+    background-color: var(--background-primary);
+}
+
+/* side dock titles at top */
+.side-dock-title
+{
+  font-size: 20px !important;
+  font-weight: 800 !important;
+}
+
+
+
+/* hover actions on side dock navigation */
+.side-dock-ribbon-tab:hover,
+.side-dock-ribbon-tab-inner:hover,
+.side-dock-ribbon-action:hover,
+.side-dock-ribbon-action.is-active:hover,
+.nav-action-button:hover,
+.side-dock-collapse-btn:hover
+{
+  color: var(--text-a);
+}
+
+/* condense line spacing on file explorer title list. also avoids character-level word breaks */
+.nav-file-title-content,
+.search-result-file-title,
+.search-result-file-match
+{
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  line-height: normal !important;
+  word-break: keep-all;
+  font-size: 14px;
+}
+
+/* clean up side bar empty state (e.g. unlinked mentions) */
+.search-empty-state
+{
+  width: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: normal;
+}
+
+/* font for everything outside of editor/preview panes */
+.app-container
+{
+  font-family: var(--font-family-preview);
+}
+
+.status-bar-item
+{
+  font-family: var(--font-family-preview);
+  font-size: 12px;
+}
+
+
+
+
+
+
+/***************************************/
+/*    at a rule line before ul list    */
+/***************************************/
+
+ul ul { position: relative; }
+ul ul::before {
+  content:'';
+  border-left: 0px solid #2c8ba0;
+  position: absolute;
+}
+ul ul::before { left: -1em; top: 0; bottom: 0; }
+
+/* rule line when there are checkboxes*/
+ul .task-list-item ul::before {left: -1.03em !important}
+
+
+li::marker {
+  color: var(--text-title-h2);
+}
+
+.markdown-preview-view li .collapse-indicator {
+  display: flex;
+  margin-top: 6px;
+}
+
+.markdown-preview-view .collapse-indicator {
+  display: flex;
+  margin-top: .5em;
+}
+
+
+/* Bottom Status Bar */
+.sync-status-icon.mod-success {
+  color: rgb(61, 216, 127, .44);
+}
+
+
+/* ScrollBar */
+::-webkit-scrollbar {
+  width: 11px;
+  height: 8px;
+  -webkit-border-radius: 0px;
+}
+
+::-webkit-scrollbar {
+  background-color: var(--scrollbar-bg);
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb, ::-webkit-scrollbar-thumb:active {
+  -webkit-border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb-bg);
+}
+
+::-webkit-scrollbar-thumb:active {
+  background-color: rgb(93, 188, 210, .9);
+}
+
+/* Nick's Tiny Sliding Panes Tweaks */
+.workspace-split.mod-root > .workspace-leaf:last-of-type .workspace-leaf-content {
+  border-top-right-radius: 0px; /*instead of 6px*/
+}
+
+/* Publish Pop-up*/
+.file-tree-item.mod-new .flair {
+  background-color: var(--background-modifier-success);
+  color: #5dd263;
+}
+
+.file-tree-item.mod-deleted .flair, .file-tree-item.mod-to-delete .flair {
+  background-color: var(--background-modifier-error);
+}
+
+.file-tree-item .flair {
+  line-height: 1.4;
+  padding: 3px 8px;
+  color: #e65959;
+}
+
+.file-tree-item.mod-changed .flair {
+  background-color: var(--background-modifier-error);
+  color: rgb(252, 246, 1, 0.75);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+.plugin-tabs .stayopen .view-header {
+border-bottom: 2px solid var(--interactive-accent)!important;
+}
+
+.plugin-tabs .mod-root.workspace-split.mod-vertical div.workspace-leaf:not(.stayopen) > .workspace-leaf-content > .view-header .view-header-title::before{
+background-color:transparent!important
+}
+
+.plugin-tabs .mod-root.workspace-split.mod-vertical .workspace-split.mod-vertical > div.workspace-leaf:not(.stayopen),
+.plugin-tabs .mod-root.workspace-split.mod-vertical > div.workspace-leaf:not(.stayopen){
+border-radius: 5px 5px 0px 0px!important;
+}
+
+.plugin-tabs .mod-root.workspace-split.mod-vertical div.workspace-leaf{
+border-color: var(--background-secondary-alt)!important;
+border-bottom-width: 0px!important;
+border-right-width: 0px!important
+}
+
+.theme-light.plugin-tabs  .mod-root.workspace-split.mod-vertical div.workspace-leaf{
+border-color: var(--background-secondary-alt)!important;
+border-left-width:3px!important;
+border-bottom-width: 0px!important;
+border-right-width: 0px!important
+}
+
+.plugin-tabs .mod-root.workspace-split.mod-vertical > div.workspace-leaf hr.workspace-leaf-resize-handle,
+.plugin-tabs .mod-root.workspace-split.mod-vertical > .mod-vertical hr.workspace-leaf-resize-handle{
+display: none;
+}
+
+
+.plugin-tabs .mod-root.workspace-split.mod-vertical div.workspace-leaf .view-header{
+border-left-color: transparent!important
+}
+
+.plugin-tabs .workspace-split.mod-root > .workspace-leaf:last-of-type .workspace-leaf-content,
+.plugin-tabs .workspace-split.mod-root > .workspace-leaf:first-of-type .workspace-leaf-content {
+    border-radius: 0px!important;
+}
+
+.plugin-tabs .theme-dark .mod-root.workspace-split.mod-vertical .workspace-split.mod-vertical > div.workspace-leaf.mod-active,
+.plugin-tabs .theme-dark .mod-root.workspace-split.mod-vertical > div.workspace-leaf.mod-active {
+border: 0!important;
+border-radius: 0px 0px 0px 0px!important;
+}

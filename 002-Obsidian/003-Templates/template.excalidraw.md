@@ -1,0 +1,16 @@
+---
+
+excalidraw-plugin: raw
+
+---
+==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
+
+
+# Text Elements
+Github ^c7cdE8rB
+
+%%
+# Drawing
+```json
+{"type":"excalidraw","version":2,"source":"https://excalidraw.com","elements":[{"id":"ac9zGocQYftOajRYciG3d","type":"diamond","x":-0.07814679827015425,"y":-364.2502256120953,"width":326.7556152343749,"height":260.71592494419633,"angle":0,"strokeColor":"#364fc7","backgroundColor":"transparent","fillStyle":"hachure","strokeWidth":2,"strokeStyle":"solid","roughness":2,"opacity":100,"groupIds":[],"strokeSharpness":"sharp","seed":1338371227,"version":155,"versionNonce":739746005,"isDeleted":false,"boundElementIds":null},{"id":"Qb02yhaz_V0DVl4kqHs8e","type":"rectangle","x":-458.60030909946965,"y":-396.9962681361607,"width":106.37557329450328,"height":113.06549508231024,"angle":0,"strokeColor":"#364fc7","backgroundColor":"#4c6ef5","fillStyle":"hachure","strokeWidth":2,"strokeStyle":"solid","roughness":2,"opacity":100,"groupIds":["5AyvqGeT36hFxXSHhO1F2"],"strokeSharpness":"sharp","seed":675177461,"version":284,"versionNonce":1791295035,"isDeleted":false,"boundElementIds":null},{"id":"c7cdE8rB","type":"text","x":-586.9040897914339,"y":-539.2029822213306,"width":372.35967145647305,"height":148.2848249162946,"angle":0,"strokeColor":"#364fc7","backgroundColor":"#4c6ef5","fillStyle":"hachure","strokeWidth":2,"strokeStyle":"solid","roughness":2,"opacity":100,"groupIds":["5AyvqGeT36hFxXSHhO1F2"],"strokeSharpness":"sharp","seed":1283864827,"version":249,"versionNonce":1321031413,"isDeleted":false,"boundElementIds":null,"text":"Github","fontSize":118.6278599330357,"fontFamily":1,"textAlign":"left","verticalAlign":"top","baseline":102.28482491629461},{"id":"9BECDNG1z3iNaaDVtQe2q","type":"arrow","x":-285.9503391810823,"y":172.70499202183362,"width":852.8823416573662,"height":355.23716517857144,"angle":0,"strokeColor":"#364fc7","backgroundColor":"#4c6ef5","fillStyle":"hachure","strokeWidth":2,"strokeStyle":"solid","roughness":2,"opacity":100,"groupIds":[],"strokeSharpness":"round","seed":74051349,"version":978,"versionNonce":1690744757,"isDeleted":false,"boundElementIds":null,"points":[[0,0],[319.24403599330356,-95.460205078125],[547.7226911272322,190.9204101562501],[154.9272809709821,259.77696010044644],[-305.15965053013394,258.2121930803572],[-211.26438685825894,-9.389474051339334]],"lastCommittedPoint":null,"startBinding":null,"endBinding":null,"startArrowhead":null,"endArrowhead":"arrow"}],"appState":{"theme":"dark","viewBackgroundColor":"#e7f5ff","currentItemStrokeColor":"#364fc7","currentItemBackgroundColor":"#4c6ef5","currentItemFillStyle":"hachure","currentItemStrokeWidth":2,"currentItemStrokeStyle":"solid","currentItemRoughness":2,"currentItemOpacity":100,"currentItemFontFamily":1,"currentItemFontSize":36,"currentItemTextAlign":"left","currentItemStrokeSharpness":"sharp","currentItemStartArrowhead":null,"currentItemEndArrowhead":"arrow","currentItemLinearStrokeSharpness":"round","gridSize":null}}
+```%%

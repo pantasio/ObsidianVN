@@ -1,0 +1,176 @@
+{
+  "customFolder": "Day Planners",
+  "mode": 1,
+  "mermaid": false,
+  "notesToDates": [
+    {
+      "notePath": "005-Daily/2021-07-22.md",
+      "date": "Thu Jul 22 2021"
+    },
+    {
+      "notePath": "005-Daily/2021-07-23.md",
+      "date": "Fri Jul 23 2021"
+    },
+    {
+      "notePath": "005-Daily/2021-07-26.md",
+      "date": "Mon Jul 26 2021"
+    },
+    {
+      "notePath": "005-Daily/2021-07-28.md",
+      "date": "Wed Jul 28 2021"
+    },
+    {
+      "notePath": "005-Daily/2021-07-29.md",
+      "date": "Thu Jul 29 2021"
+    },
+    {
+      "notePath": "003-Daily/W30/2021-07-30.md",
+      "date": "Sat Jul 31 2021"
+    },
+    {
+      "notePath": "003-Daily/2021-08-01.md",
+      "date": "Sun Aug 01 2021"
+    },
+    {
+      "notePath": "003-Daily/2021-08-02.md",
+      "date": "Mon Aug 02 2021"
+    },
+    {
+      "notePath": "003-Daily/2021-08-04.md",
+      "date": "Wed Aug 04 2021"
+    },
+    {
+      "notePath": "003-Daily/2021-08-05.md",
+      "date": "Thu Aug 05 2021"
+    },
+    {
+      "notePath": "003-Daily/2021-08-06.md",
+      "date": "Fri Aug 06 2021"
+    },
+    {
+      "notePath": "003-Daily/2021-08-09.md",
+      "date": "Mon Aug 09 2021"
+    },
+    {
+      "notePath": "003-Daily/2021-08-10.md",
+      "date": "Tue Aug 10 2021"
+    },
+    {
+      "notePath": "003-Daily/2021-08-11.md",
+      "date": "Wed Aug 11 2021"
+    },
+    {
+      "notePath": "003-Daily/2021-08-12.md",
+      "date": "Thu Aug 12 2021"
+    },
+    {
+      "notePath": "003-Daily/2021-08-13.md",
+      "date": "Fri Aug 13 2021"
+    },
+    {
+      "notePath": "003-Daily/2021-08-14.md",
+      "date": "Sat Aug 14 2021"
+    },
+    {
+      "notePath": "003-Daily/2021-08-15.md",
+      "date": "Sun Aug 15 2021"
+    },
+    {
+      "notePath": "003-Daily/2021-08-16.md",
+      "date": "Mon Aug 16 2021"
+    },
+    {
+      "notePath": "003-Daily/2021-08-17.md",
+      "date": "Tue Aug 17 2021"
+    },
+    {
+      "notePath": "003-Daily/2021-08-18.md",
+      "date": "Wed Aug 18 2021"
+    },
+    {
+      "notePath": "003-Daily/2021-08-19.md",
+      "date": "Thu Aug 19 2021"
+    },
+    {
+      "notePath": "003-Daily/2021-08-20.md",
+      "date": "Fri Aug 20 2021"
+    },
+    {
+      "notePath": "003-Daily/2021-08-21.md",
+      "date": "Sat Aug 21 2021"
+    },
+    {
+      "notePath": "003-Daily/2021-08-22.md",
+      "date": "Sun Aug 22 2021"
+    },
+    {
+      "notePath": "003-Daily/2021-08-23.md",
+      "date": "Mon Aug 23 2021"
+    },
+    {
+      "notePath": "003-Daily/2021-08-24.md",
+      "date": "Tue Aug 24 2021"
+    },
+    {
+      "notePath": "003-Daily/2021-08-25.md",
+      "date": "Wed Aug 25 2021"
+    },
+    {
+      "notePath": "003-Daily/2021-09-01.md",
+      "date": "Wed Sep 01 2021"
+    },
+    {
+      "notePath": "003-Daily/2021-09-02.md",
+      "date": "Thu Sep 02 2021"
+    },
+    {
+      "notePath": "003-Daily/2021-09-03.md",
+      "date": "Fri Sep 03 2021"
+    },
+    {
+      "notePath": "003-Daily/2021-09-06.md",
+      "date": "Mon Sep 06 2021"
+    },
+    {
+      "notePath": "003-Daily/2021-09-08.md",
+      "date": "Wed Sep 08 2021"
+    },
+    {
+      "notePath": "003-Daily/2021-09-09.md",
+      "date": "Thu Sep 09 2021"
+    },
+    {
+      "notePath": "003-Daily/2021-09-10.md",
+      "date": "Fri Sep 10 2021"
+    },
+    {
+      "notePath": "003-Daily/2021-09-11.md",
+      "date": "Sat Sep 11 2021"
+    },
+    {
+      "notePath": "003-Daily/2021-09-12.md",
+      "date": "Sun Sep 12 2021"
+    },
+    {
+      "notePath": "003-Daily/2021-09-16.md",
+      "date": "Thu Sep 16 2021"
+    },
+    {
+      "notePath": "003-Daily/2021-09-17.md",
+      "date": "Fri Sep 17 2021"
+    },
+    {
+      "notePath": "003-Daily/2021-09-28.md",
+      "date": "Tue Sep 28 2021"
+    },
+    {
+      "notePath": "003-Daily/2021-10-01.md",
+      "date": "Fri Oct 01 2021"
+    }
+  ],
+  "completePastItems": true,
+  "circularProgress": true,
+  "nowAndNextInStatusBar": true,
+  "showTaskNotification": true,
+  "timelineZoomLevel": 4
+}
