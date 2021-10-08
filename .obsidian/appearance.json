@@ -1,0 +1,9 @@
+{
+  "baseFontSize": 14,
+  "obsidianCss": true,
+  "cssTheme": "pantasio",
+  "enabledCssSnippets": [
+    "shorter-links",
+    "pretty-checkbox"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+	"id": "asciinema",
+	"name": "Asciinema",
+	"version": "1.0.1",
+	"minAppVersion": "0.9.12",
+	"description": "Record your terminal, show in Obsidian",
+	"author": "Pantasio",
+	"authorUrl": "https://pantasio.com/about",
+	"isDesktopOnly": false
+}

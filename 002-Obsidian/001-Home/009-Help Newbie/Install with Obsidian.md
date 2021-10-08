@@ -1,0 +1,6 @@
+- [ ] B1: Đến trang web [Obsidian.io](https://Obsidian.md) và cài đặt theo hướng dẫn
+- [ ] B2: Lên github để tải file zip về [link]()
+- [ ] B3: Mở Obsidian và tạo new vaul, đặt tên và chọn đường dẫn để lưu vaul.
+- [ ] B4: giải nén file zip đã tải ở Bước 2 vào đường dẫn bạn vừa tạo ở Bước 3
+- [ ] Trong quá trình cài đặt có những lỗi gì các bạn xem fix lỗi tại đây [[QandA]]
+- [ ] DONE

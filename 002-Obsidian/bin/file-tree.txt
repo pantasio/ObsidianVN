@@ -1,0 +1,108 @@
+.gitignore
+.obsidian/app.json
+.obsidian/appearance.json
+.obsidian/community-plugins.json
+.obsidian/core-plugins.json
+.obsidian/daily-notes.json
+.obsidian/graph.json
+.obsidian/hotkeys.json
+.obsidian/plugins/asciinema-obsidian/main.ts
+.obsidian/plugins/asciinema-obsidian/manifest.json
+.obsidian/plugins/asciinema-obsidian/styles.css
+.obsidian/plugins/calendar/data.json
+.obsidian/plugins/calendar/main.js
+.obsidian/plugins/calendar/manifest.json
+.obsidian/plugins/cm-editor-syntax-highlight-obsidian/main.js
+.obsidian/plugins/cm-editor-syntax-highlight-obsidian/manifest.json
+.obsidian/plugins/cm-editor-syntax-highlight-obsidian/styles.css
+.obsidian/plugins/obsidian-day-planner/data.json
+.obsidian/plugins/obsidian-day-planner/main.js
+.obsidian/plugins/obsidian-day-planner/manifest.json
+.obsidian/plugins/obsidian-day-planner/styles.css
+.obsidian/plugins/obsidian-emoji-toolbar/main.js
+.obsidian/plugins/obsidian-emoji-toolbar/manifest.json
+.obsidian/plugins/obsidian-emoji-toolbar/styles.css
+.obsidian/plugins/obsidian-kanban/data.json
+.obsidian/plugins/obsidian-kanban/main.js
+.obsidian/plugins/obsidian-kanban/manifest.json
+.obsidian/plugins/obsidian-kanban/styles.css
+.obsidian/plugins/sliding-panes-obsidian/data.json
+.obsidian/plugins/sliding-panes-obsidian/main.js
+.obsidian/plugins/sliding-panes-obsidian/manifest.json
+.obsidian/plugins/sliding-panes-obsidian/styles.css
+.obsidian/plugins/table-editor-obsidian/data.json
+.obsidian/plugins/table-editor-obsidian/main.js
+.obsidian/plugins/table-editor-obsidian/manifest.json
+.obsidian/plugins/table-editor-obsidian/styles.css
+.obsidian/plugins/templater-obsidian/data.json
+.obsidian/plugins/templater-obsidian/main.js
+.obsidian/plugins/templater-obsidian/manifest.json
+.obsidian/plugins/templater-obsidian/styles.css
+.obsidian/snippets/shorter-links.css
+.obsidian/templates.json
+.obsidian/themes/Cybertron-mod.css
+.obsidian/themes/Cybertron.css
+.obsidian/themes/Wasp.css
+.obsidian/themes/pantasio.css
+001-Home/009-Help Newbie/All emoji.md
+001-Home/009-Help Newbie/Cac plugins/Advance table - plugin.md
+001-Home/009-Help Newbie/Cac plugins/Combo Calendar + Bankan + Day planner !!!.md
+001-Home/009-Help Newbie/Cac plugins/Day Planner plugin.md
+001-Home/009-Help Newbie/Cac plugins/List plugin.md
+001-Home/009-Help Newbie/Cac plugins/Templater.md
+001-Home/009-Help Newbie/Embed files.md
+001-Home/009-Help Newbie/Install with Obsidian.md
+001-Home/009-Help Newbie/Link your note.md
+001-Home/009-Help Newbie/Pro tips Vim mode.md
+001-Home/009-Help Newbie/QandA.md
+001-Home/009-Help Newbie/Sample Markdown Syntax.md
+001-Home/009-Help Newbie/Sample doc/Ansible.md
+001-Home/009-Help Newbie/Sample doc/CoffeeScript.md
+001-Home/009-Help Newbie/Sample doc/Installation.md
+001-Home/009-Help Newbie/Sample doc/Untitled.md
+001-Home/009-Help Newbie/To-do list.md
+001-Home/009-Help Newbie/demo/Slides-demo.md
+001-Home/009-Help Newbie/demo/music-demo.md
+001-Home/009-Help Newbie/demo/soundcloud-demo.md
+001-Home/009-Help Newbie/demo/youtube-embed-demo.md
+001-Home/009-Help Newbie/demo/yt-Timestamps-demo.md
+001-Home/009-Help Newbie/keyblind.md
+002-Obsidian/003-Templates/Asciinema.md
+002-Obsidian/003-Templates/Daily.md
+002-Obsidian/003-Templates/Weekly.md
+002-Obsidian/003-Templates/bankan.md
+002-Obsidian/003-Templates/image.md
+002-Obsidian/003-Templates/meta.md
+002-Obsidian/003-Templates/soundcloud.md
+002-Obsidian/003-Templates/youtube.md
+002-Obsidian/008-Templater/YT-Timestamps.md
+002-Obsidian/Begin Obsidian with pkit.md
+002-Obsidian/Changelog/20210722.md
+002-Obsidian/Changelog/20210801.md
+002-Obsidian/Changelog/Changelog.md
+002-Obsidian/Linux.md
+002-Obsidian/MacOS.md
+002-Obsidian/WIn10.md
+002-Obsidian/add github.md
+002-Obsidian/bin/Create-new-Obsidian-vaul.ps1
+099-Attachment/pkit/116945646-10c84c00-ac2d-11eb-864c-4744ba90e860.mp4
+099-Attachment/pkit/Animation.gif
+099-Attachment/pkit/Hello - OMFG 320kbps.mp3
+099-Attachment/pkit/Pasted image 20210726102620.png
+099-Attachment/pkit/Pasted image 20210726103002.png
+099-Attachment/pkit/Pasted image 20210728133408.png
+099-Attachment/pkit/Pasted image 20210801085358.png
+099-Attachment/pkit/YT-timestamps.gif
+099-Attachment/pkit/advanceTable.gif
+099-Attachment/pkit/enSlide.gif
+099-Attachment/pkit/makeTable.gif
+099-Attachment/pkit/multiCursor.gif
+099-Attachment/pkit/note-dau-tien.gif
+099-Attachment/pkit/runSlide 1.gif
+099-Attachment/pkit/runSlide.gif
+099-Attachment/pkit/soanthao.gif
+099-Attachment/pkit/soundcloud.gif
+099-Attachment/pkit/youtube 1.gif
+099-Attachment/pkit/youtube.gif
+LICENSE
+README.md

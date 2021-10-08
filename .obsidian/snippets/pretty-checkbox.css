@@ -1,0 +1,91 @@
+    .theme-dark {
+    --background-primary:         #0d131b;	/* #0d1117; */
+    --background-primary-alt:     #0b191f;	/* old #242424*/
+    --background-secondary:       #191919;
+    --background-secondary-alt:   #0d131b;
+    --text-normal:                #ffefb7;	/* Old #faf2d6;*/
+    --text-faint:                 #4eafb5;	/* old #bdae93; */
+    --checkbox-color:             #66ff87;
+    --checkbox-border-color:      #4eafb5;
+    --checkbox-hover-color:       #82fc31;
+    }
+
+@keyframes click-wave {
+  0% {
+    height: 16px;
+    width: 16px;
+    opacity: 0.5;
+    position: relative;
+  }
+  100% {
+    height: 35px;
+    width: 35px;
+    margin-left: -40px;
+    margin-top: -40px;
+    opacity: 0;
+  }
+}
+
+.markdown-preview-view .task-list-item-checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  position: relative;
+  top: 18.px !important;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 1em;
+  width: 1em;
+  transition: all 0.15s ease-out 0s;
+  /* background: #313335; */
+  /* background: var(--background-secondary); */
+  border: 1px solid  var(--checkbox-border-color);
+  /* color: #fff; */
+  color: var(--text-faint);
+  cursor: pointer;
+  display: inline-block;
+  margin: 0;
+  margin-right: .7em;
+  outline: none;
+  position: relative;
+  z-index: 1000;
+}
+.markdown-preview-view .task-list-item-checkbox:hover {
+  background: var(--checkbox-hover-color);
+}
+.markdown-preview-view .task-list-item-checkbox:checked {
+  background: var(--background-secondary);
+}
+.markdown-preview-view .task-list-item-checkbox:checked::before {
+  height: 1em;
+  width: 1em;
+  position: absolute;
+  content: '✔';
+  color: var(--checkbox-color);
+  display: inline-block;
+  /* font-size: 26.66667px; */
+  font-size: 1em;
+  text-align: center;
+  /* line-height: 40px; */
+  line-height: 1em;
+}
+.markdown-preview-view .task-list-item-checkbox:checked::after {
+  -webkit-animation: click-wave 0.65s;
+  -moz-animation: click-wave 0.65s;
+  animation: click-wave 0.65s;
+  /* background: #e08840; */
+  background: var(--text-faint);
+  content: '';
+  display: block;
+  position: relative;
+  z-index: 100;
+}
+.markdown-preview-view .task-list-item-checkbox {
+  border-radius: 50%;
+}
+.markdown-preview-view .task-list-item-checkbox::after {
+  border-radius: 50%;
+}
