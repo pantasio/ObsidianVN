@@ -4,9 +4,12 @@
 #==========
 # Obsidian
 .trash
+003-Daily/*
+099-Attachment/*
 #.obsidian
-
-
+.obsidian/app.json
+.obsidian/plugins/obsidian-day-planner/data.json
+.obsidian/workspace
 
 
 #==========

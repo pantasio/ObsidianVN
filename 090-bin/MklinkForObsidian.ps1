@@ -36,19 +36,19 @@ $ObsidianTarget.foreach({
     
     # Create Dir "099-Attachment\2021\10"
     New-Item -ItemType "directory" -Path "$PSItem\" -Name "099-Attachment\2021\10" -Force | out-null    
-    cp $Source\.obsidian\* $PSItem\.obsidian
+    # cp $Source\.obsidian\* $PSItem\.obsidian
 
     # Copy folder `.obsidian` cho các Vaul
-    $Folder = '$PSItem\.obsidian'
+    $Folder = "$PSItem\.obsidian"
     # "Test to see if folder [$Folder] exists"
     if (Test-Path -Path $Folder) {
         "Path exists!"
         Remove-Item -Path "$PSItem\.obsidian" -Force -Recurse -Confirm:$false | out-null
         sleep -seconds 0.05
-        Copy-Item -Path "$Source\.obsidian\*" -Destination "$PSItem\.obsidian" -Recurse
+        Copy-Item -Path "$Source\.obsidian\" -Destination "$PSItem\.obsidian" -Recurse
     } else {
         "Path doesn't exist."
-        Copy-Item -Path "$Source\.obsidian\*" -Destination "$PSItem\.obsidian" -Recurse
+        Copy-Item -Path "$Source\.obsidian\" -Destination "$PSItem\.obsidian" -Recurse
     }
     
     
@@ -93,157 +93,43 @@ $ObsidianTarget.foreach({
     
     
     # # .obsidian\snippets
-    # $folder = ".obsidian\snippets"
-    # $files = Get-ChildItem "$Source\$folder" 
-    # # $files = Get-ChildItem "K:\ObsidianWin\Teaching\source-edit\.obsidian\" -Recurse 
-    # foreach ($f in $files){
-    # $filename = Split-Path -Path "$f" -Leaf -Resolve
-    # New-Item -ItemType SymbolicLink -Target "$Source\$folder\$filename" -Path "$PSItem\$folder\$filename" -Force | out-null
-    # }
+    
     # # .obsidian\themes
-    # $folder = ".obsidian\themes"
-    # $files = Get-ChildItem "$Source\$folder" 
-    # # $files = Get-ChildItem "K:\ObsidianWin\Teaching\source-edit\.obsidian\" -Recurse 
-    # foreach ($f in $files){
-    # $filename = Split-Path -Path "$f" -Leaf -Resolve
-    # New-Item -ItemType SymbolicLink -Target "$Source\$folder\$filename" -Path "$PSItem\$folder\$filename" -Force | out-null
-    # }
+    
 	# # .obsidian\plugin
-	# $folder = ".obsidian\plugin"
-    # $files = Get-ChildItem "$Source\$folder" 
-    # # $files = Get-ChildItem "K:\ObsidianWin\Teaching\source-edit\.obsidian\" -Recurse 
-    # foreach ($f in $files){
-    # $filename = Split-Path -Path "$f" -Leaf -Resolve
-    # New-Item -ItemType SymbolicLink -Target "$Source\$folder\$filename" -Path "$PSItem\$folder\$filename" -Force | out-null
-    # }
+	
 	# # .obsidian\plugins\asciinema-obsidian
-    # $folder = ".obsidian\plugins\asciinema-obsidian"
-    # $files = Get-ChildItem "$Source\$folder" 
-    # # $files = Get-ChildItem "K:\ObsidianWin\Teaching\source-edit\.obsidian\" -Recurse 
-    # foreach ($f in $files){
-    # $filename = Split-Path -Path "$f" -Leaf -Resolve
-    # New-Item -ItemType SymbolicLink -Target "$Source\$folder\$filename" -Path "$PSItem\$folder\$filename" -Force | out-null
-    # }
+    
     # # .obsidian\plugins\calendar
-    # $folder = ".obsidian\plugins\calendar"
-    # $files = Get-ChildItem "$Source\$folder" 
-    # # $files = Get-ChildItem "K:\ObsidianWin\Teaching\source-edit\.obsidian\" -Recurse 
-    # foreach ($f in $files){
-    # $filename = Split-Path -Path "$f" -Leaf -Resolve
-    # New-Item -ItemType SymbolicLink -Target "$Source\$folder\$filename" -Path "$PSItem\$folder\$filename" -Force | out-null
-    # }
+    
     # # .obsidian\plugins\cm-editor-syntax-highlight-obsidian
-    # $folder = ".obsidian\plugins\cm-editor-syntax-highlight-obsidian"
-    # $files = Get-ChildItem "$Source\$folder" 
-    # # $files = Get-ChildItem "K:\ObsidianWin\Teaching\source-edit\.obsidian\" -Recurse 
-    # foreach ($f in $files){
-    # $filename = Split-Path -Path "$f" -Leaf -Resolve
-    # New-Item -ItemType SymbolicLink -Target "$Source\$folder\$filename" -Path "$PSItem\$folder\$filename" -Force | out-null
-    # }
+    
     # # .obsidian\plugins\code-block-copy
-    # $folder = ".obsidian\plugins\code-block-copy"
-    # $files = Get-ChildItem "$Source\$folder" 
-    # # $files = Get-ChildItem "K:\ObsidianWin\Teaching\source-edit\.obsidian\" -Recurse 
-    # foreach ($f in $files){
-    # $filename = Split-Path -Path "$f" -Leaf -Resolve
-    # New-Item -ItemType SymbolicLink -Target "$Source\$folder\$filename" -Path "$PSItem\$folder\$filename" -Force | out-null
-    # }
+    
     # # .obsidian\plugins\dataview
-    # $folder = ".obsidian\plugins\dataview"
-    # $files = Get-ChildItem "$Source\$folder" 
-    # # $files = Get-ChildItem "K:\ObsidianWin\Teaching\source-edit\.obsidian\" -Recurse 
-    # foreach ($f in $files){
-    # $filename = Split-Path -Path "$f" -Leaf -Resolve
-    # New-Item -ItemType SymbolicLink -Target "$Source\$folder\$filename" -Path "$PSItem\$folder\$filename" -Force | out-null
-    # }
+    
     # # .obsidian\plugins\obsidian-admonition
-    # $folder = ".obsidian\plugins\obsidian-admonition"
-    # $files = Get-ChildItem "$Source\$folder" 
-    # # $files = Get-ChildItem "K:\ObsidianWin\Teaching\source-edit\.obsidian\" -Recurse 
-    # foreach ($f in $files){
-    # $filename = Split-Path -Path "$f" -Leaf -Resolve
-    # New-Item -ItemType SymbolicLink -Target "$Source\$folder\$filename" -Path "$PSItem\$folder\$filename" -Force | out-null
-    # }
+    
     # # .obsidian\plugins\obsidian-budget-wysiwyg
-    # $folder = ".obsidian\plugins\obsidian-budget-wysiwyg"
-    # $files = Get-ChildItem "$Source\$folder" 
-    # # $files = Get-ChildItem "K:\ObsidianWin\Teaching\source-edit\.obsidian\" -Recurse 
-    # foreach ($f in $files){
-    # $filename = Split-Path -Path "$f" -Leaf -Resolve
-    # New-Item -ItemType SymbolicLink -Target "$Source\$folder\$filename" -Path "$PSItem\$folder\$filename" -Force | out-null
-    # }
+    
     # # .obsidian\plugins\obsidian-day-planner
-    # $folder = ".obsidian\plugins\obsidian-day-planner"
-    # $files = Get-ChildItem "$Source\$folder" 
-    # # $files = Get-ChildItem "K:\ObsidianWin\Teaching\source-edit\.obsidian\" -Recurse 
-    # foreach ($f in $files){
-    # $filename = Split-Path -Path "$f" -Leaf -Resolve
-    # New-Item -ItemType SymbolicLink -Target "$Source\$folder\$filename" -Path "$PSItem\$folder\$filename" -Force | out-null
-    # }
+    
     # # .obsidian\plugins\obsidian-emoji-toolbar
-    # $folder = ".obsidian\plugins\obsidian-emoji-toolbar"
-    # $files = Get-ChildItem "$Source\$folder" 
-    # # $files = Get-ChildItem "K:\ObsidianWin\Teaching\source-edit\.obsidian\" -Recurse 
-    # foreach ($f in $files){
-    # $filename = Split-Path -Path "$f" -Leaf -Resolve
-    # New-Item -ItemType SymbolicLink -Target "$Source\$folder\$filename" -Path "$PSItem\$folder\$filename" -Force | out-null
-    # }
+    
     # # .obsidian\plugins\obsidian-excalidraw-plugin
-    # $folder = ".obsidian\plugins\obsidian-excalidraw-plugin"
-    # $files = Get-ChildItem "$Source\$folder" 
-    # # $files = Get-ChildItem "K:\ObsidianWin\Teaching\source-edit\.obsidian\" -Recurse 
-    # foreach ($f in $files){
-    # $filename = Split-Path -Path "$f" -Leaf -Resolve
-    # New-Item -ItemType SymbolicLink -Target "$Source\$folder\$filename" -Path "$PSItem\$folder\$filename" -Force | out-null
-    # }
+    
     # # .obsidian\plugins\obsidian-kanban
-    # $folder = ".obsidian\plugins\obsidian-kanban"
-    # $files = Get-ChildItem "$Source\$folder" 
-    # # $files = Get-ChildItem "K:\ObsidianWin\Teaching\source-edit\.obsidian\" -Recurse 
-    # foreach ($f in $files){
-    # $filename = Split-Path -Path "$f" -Leaf -Resolve
-    # New-Item -ItemType SymbolicLink -Target "$Source\$folder\$filename" -Path "$PSItem\$folder\$filename" -Force | out-null
-    # }
+    
     # # .obsidian\plugins\obsidian-outliner
-    # $folder = ".obsidian\plugins\obsidian-outliner"
-    # $files = Get-ChildItem "$Source\$folder" 
-    # # $files = Get-ChildItem "K:\ObsidianWin\Teaching\source-edit\.obsidian\" -Recurse 
-    # foreach ($f in $files){
-    # $filename = Split-Path -Path "$f" -Leaf -Resolve
-    # New-Item -ItemType SymbolicLink -Target "$Source\$folder\$filename" -Path "$PSItem\$folder\$filename" -Force | out-null
-    # }
+    
     # # .obsidian\plugins\obsidian-relative-line-numbers
-    # $folder = ".obsidian\plugins\obsidian-relative-line-numbers"
-    # $files = Get-ChildItem "$Source\$folder" 
-    # # $files = Get-ChildItem "K:\ObsidianWin\Teaching\source-edit\.obsidian\" -Recurse 
-    # foreach ($f in $files){
-    # $filename = Split-Path -Path "$f" -Leaf -Resolve
-    # New-Item -ItemType SymbolicLink -Target "$Source\$folder\$filename" -Path "$PSItem\$folder\$filename" -Force | out-null
-    # }
+    
     # # .obsidian\plugins\sliding-panes-obsidian
-    # $folder = ".obsidian\plugins\sliding-panes-obsidian"
-    # $files = Get-ChildItem "$Source\$folder" 
-    # # $files = Get-ChildItem "K:\ObsidianWin\Teaching\source-edit\.obsidian\" -Recurse 
-    # foreach ($f in $files){
-    # $filename = Split-Path -Path "$f" -Leaf -Resolve
-    # New-Item -ItemType SymbolicLink -Target "$Source\$folder\$filename" -Path "$PSItem\$folder\$filename" -Force | out-null
-    # }
+    
     # # .obsidian\plugins\table-editor-obsidian
-    # $folder = ".obsidian\plugins\table-editor-obsidian"
-    # $files = Get-ChildItem "$Source\$folder" 
-    # # $files = Get-ChildItem "K:\ObsidianWin\Teaching\source-edit\.obsidian\" -Recurse 
-    # foreach ($f in $files){
-    # $filename = Split-Path -Path "$f" -Leaf -Resolve
-    # New-Item -ItemType SymbolicLink -Target "$Source\$folder\$filename" -Path "$PSItem\$folder\$filename" -Force | out-null
-    # }
+    
     # # .obsidian\plugins\templater-obsidian
-    # $folder = ".obsidian\plugins\templater-obsidian"
-    # $files = Get-ChildItem "$Source\$folder" 
-    # # $files = Get-ChildItem "K:\ObsidianWin\Teaching\source-edit\.obsidian\" -Recurse 
-    # foreach ($f in $files){
-    # $filename = Split-Path -Path "$f" -Leaf -Resolve
-    # New-Item -ItemType SymbolicLink -Target "$Source\$folder\$filename" -Path "$PSItem\$folder\$filename" -Force | out-null
-    # }
+    
 
     # Xóa folder 002-Obsidian ở các Vaul trước khi symlink.
     $Folder = '$PSItem\002-Obsidian'
@@ -285,14 +171,7 @@ $ObsidianTarget.foreach({
     }
 	sleep -seconds 0.05
     # 002-Obsidian\001-Home\009-Help Newbie
-    # $folder = "002-Obsidian\001-Home\009-Help Newbie"
-    # $files = Get-ChildItem "$Source\$folder" 
-    # # $files = Get-ChildItem "K:\ObsidianWin\Teaching\source-edit\.obsidian\" -Recurse 
-    # foreach ($f in $files){
-    # $filename = Split-Path -Path "$f" -Leaf -Resolve
-    # New-Item -ItemType SymbolicLink -Target "$Source\$folder\$filename" -Path "$PSItem\$folder\$filename" -Force | out-null
-    # }       
-	# sleep -seconds 0.05
+    
     # 002-Obsidian\003-Templates
     $folder = "002-Obsidian\003-Templates"
     $files = Get-ChildItem "$Source\$folder" 
@@ -321,32 +200,11 @@ $ObsidianTarget.foreach({
     }
 	sleep -seconds 0.05
     # 002-Obsidian\bin
-    # $folder = "002-Obsidian\bin"
-    # $files = Get-ChildItem "$Source\$folder" 
-    # # $files = Get-ChildItem "K:\ObsidianWin\Teaching\source-edit\.obsidian\" -Recurse 
-    # foreach ($f in $files){
-    # $filename = Split-Path -Path "$f" -Leaf -Resolve
-    # New-Item -ItemType SymbolicLink -Target "$Source\$folder\$filename" -Path "$PSItem\$folder\$filename" -Force | out-null
-    # }       
-	# sleep -seconds 0.05
+    
     # 002-Obsidian\Changelog
-    # $folder = "002-Obsidian\Changelog"
-    # $files = Get-ChildItem "$Source\$folder" 
-    # # $files = Get-ChildItem "K:\ObsidianWin\Teaching\source-edit\.obsidian\" -Recurse 
-    # foreach ($f in $files){
-    # $filename = Split-Path -Path "$f" -Leaf -Resolve
-    # New-Item -ItemType SymbolicLink -Target "$Source\$folder\$filename" -Path "$PSItem\$folder\$filename" -Force | out-null
-    # }
-	# sleep -seconds 0.05
+    
     # 002-Obsidian
-    # $folder = "002-Obsidian"
-    # $files = Get-ChildItem "$Source\$folder" 
-    # # $files = Get-ChildItem "K:\ObsidianWin\Teaching\source-edit\.obsidian\" -Recurse 
-    # foreach ($f in $files){
-    # $filename = Split-Path -Path "$f" -Leaf -Resolve
-    # New-Item -ItemType SymbolicLink -Target "$Source\$folder\$filename" -Path "$PSItem\$folder\$filename" -Force | out-null
-    # }
-	# sleep -seconds 0.05
+    
     # 090-bin
     $folder = "090-bin"
     $files = Get-ChildItem "$Source\$folder" 
@@ -372,9 +230,19 @@ $ObsidianTarget.foreach({
 	# Show Message when done 1 repo
 	sleep -seconds 0.5
 	Write-Host "Create Symbolic-Link at $PSItem is DONE" -ForegroundColor Green -BackgroundColor Black
-})
+}) | out-null
 
 
-#Create Symlink to %userprofile%\bin
-	New-Item -ItemType SymbolicLink -Target "$Source\090-bin\MklinkForObsidian.ps1" -Path "$env:userprofile\bin\MklinkForObsidian.ps1" -Force | out-null
-    # Copy-Item $file1 -Destination $env:userprofile\bin
+    ####################################################
+    #Check if symlink exist do mothing, if not: Create Symlink to %userprofile%\bin
+    $filename = "$env:userprofile\bin\MklinkForObsidian.ps1"
+    # "Test to see if folder [$Folder] exists"
+    if (Test-Path -Path $filename -PathType Leaf) {
+        "Symlink exists!"
+        Remove-Item -Path "$env:userprofile\bin\MklinkForObsidian.ps1" -Force -Recurse -Confirm:$false | out-null
+        sleep -seconds 0.05
+        New-Item -ItemType SymbolicLink -Target "$Source\090-bin\MklinkForObsidian.ps1" -Path "$env:userprofile\bin\MklinkForObsidian.ps1" -Force | out-null
+    } else {
+        "Symlink doesn't exist."
+        New-Item -ItemType SymbolicLink -Target "$Source\090-bin\MklinkForObsidian.ps1" -Path "$env:userprofile\bin\MklinkForObsidian.ps1" -Force | out-null
+    }
