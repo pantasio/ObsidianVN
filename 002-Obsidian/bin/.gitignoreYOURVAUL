@@ -5,7 +5,9 @@
 # Obsidian
 .trash
 #.obsidian
-
+.obsidian/app.json
+.obsidian/plugins/obsidian-day-planner/data.json
+.obsidian/workspace
 
 
 
