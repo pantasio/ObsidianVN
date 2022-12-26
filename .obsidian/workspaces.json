@@ -1,0 +1,137 @@
+{
+  "workspaces": {
+    "begin": {
+      "main": {
+        "id": "c7c5ba09f3aa1c4f",
+        "type": "split",
+        "children": [
+          {
+            "id": "a25635c51a0291a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "003-Daily/2021-09-03.md",
+                "mode": "preview"
+              }
+            }
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "b3d771285ecc7d0d",
+        "type": "split",
+        "children": [
+          {
+            "id": "e22fac50e535f08e",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "eeb35ab8e9c26fe8",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {}
+                }
+              },
+              {
+                "id": "f9c7f1b5a07dea23",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "git flow",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300
+      },
+      "right": {
+        "id": "08c98a8a7d274fbf",
+        "type": "split",
+        "children": [
+          {
+            "id": "5ee9fdb753f384a6",
+            "type": "tabs",
+            "dimension": 38.32046332046332,
+            "children": [
+              {
+                "id": "6591d69288e8696f",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "3e54c88fd8f3b5f0",
+                "type": "leaf",
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "e7396639cda7fd04",
+            "type": "tabs",
+            "dimension": 61.67953667953669,
+            "children": [
+              {
+                "id": "7c1092a8ee035245",
+                "type": "leaf",
+                "state": {
+                  "type": "timeline",
+                  "state": {}
+                }
+              },
+              {
+                "id": "7f10714c7d8f5d5a",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "009eadc107241ad2",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "003-Daily/2021-09-03.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300
+      },
+      "active": "a25635c51a0291a9"
+    }
+  },
+  "active": "begin"
+}

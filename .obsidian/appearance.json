@@ -1,0 +1,9 @@
+{
+  "baseFontSize": 14,
+  "cssTheme": "pantasio",
+  "enabledCssSnippets": [
+    "shorter-links",
+    "pretty-checkbox"
+  ],
+  "accentColor": ""
+}

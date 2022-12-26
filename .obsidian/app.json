@@ -1,0 +1,17 @@
+{
+  "obsidianCss": true,
+  "attachmentFolderPath": "099-Attachment/2022/11",
+  "vimMode": true,
+  "showLineNumber": true,
+  "promptDelete": true,
+  "alwaysUpdateLinks": true,
+  "defaultViewMode": "preview",
+  "newFileLocation": "current",
+  "showUnsupportedFiles": false,
+  "foldHeading": true,
+  "foldIndent": true,
+  "showFrontmatter": false,
+  "tabSize": 4,
+  "legacyEditor": false,
+  "livePreview": true
+}

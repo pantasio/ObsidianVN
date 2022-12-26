@@ -1,0 +1,10 @@
+\.git
+\.gitignore
+
+^/.stow-local-ignore
+^/.stowrc
+^/README.* # Excludes only top-level READMEs
+^/LICENSE.*
+^/COPYING
+
+^/003-Daily # Excludes directory
