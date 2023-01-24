@@ -45,13 +45,11 @@
   --text-faint: #4eafb5;
   /* old #bdae93; */
 
-  --text-title-h1: #c7c400;
-  /*  Original all header is #E0E0E0; */
-
+  --text-title-h1: #52c1da;
   --text-title-h2: #b9adff;
-  --text-title-h3: #52c1da;
+  --text-title-h3: #de87ca;
   --text-title-h4: #67c073;
-  --text-title-h5: #de87ca;
+  --text-title-h5: #c7c400;
   --text-title-h6: #b4b4b4;
 
   --text-highlight-bg: #ce0e5f;
