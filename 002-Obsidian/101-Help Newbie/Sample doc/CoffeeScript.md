@@ -22,7 +22,7 @@ _CoffeeScript on the topleft, compiled JavaScript output on the bottomright. The
 
 ### What’s New In CoffeeScript 2?
 
-The biggest change in CoffeeScript 2 is that now the CoffeeScript compiler produces modern JavaScript syntax (ES6, or ES2015 and later). A CoffeeScript `=>` becomes a JS `=>`, a CoffeeScript `class` becomes a JS `class` and so on. Major new features in CoffeeScript 2 include [async functions](http://coffeescript.org/#async-functions) and [JSX](http://coffeescript.org/#jsx). You can read more in the [announcement](http://coffeescript.org/announcing-coffeescript-2/).
+The biggest change in CoffeeScript 2 is that now the CoffeeScript compiler produces modern JavaScript syntax (ES6, or ES2015 and later). A CoffeeScript `=>` becomes a JS `=>`, a CoffeeScript `class` becomes a JS `class` and so on. Major new features in CoffeeScript 2 include [async functions](http://coffeescript.org/#async-functions) and [JSX](http://coffeescript.org/#jsx). You can read more in the [announcement](http://coffeescript.org/announcing-coffeescript-2/). 
 
 There are very few [breaking changes from CoffeeScript 1.x to 2](http://coffeescript.org/#breaking-changes); we hope the upgrade process is smooth for most projects.
 
@@ -43,17 +43,17 @@ The command-line version of `coffee` is available as a [Node.js](https://nodejs.
 
 To install, first make sure you have a working copy of the latest stable version of [Node.js](https://nodejs.org/). You can then install CoffeeScript globally with [npm](https://www.npmjs.com/):
 
-> ```
-> npm install --global coffeescript
-> ```
+```
+ npm install --global coffeescript
+```
 
 This will make the `coffee` and `cake` commands available globally.
 
 If you are using CoffeeScript in a project, you should install it locally for that project so that the version of CoffeeScript is tracked as one of your project’s dependencies. Within that project’s folder:
 
-> ```
-> npm install --save-dev coffeescript
-> ```
+```
+ npm install --save-dev coffeescript
+```
 
 The `coffee` and `cake` commands will first look in the current folder to see if CoffeeScript is installed locally, and use that version if so. This allows different versions of CoffeeScript to be installed globally and locally.
 

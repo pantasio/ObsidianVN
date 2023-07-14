@@ -207,6 +207,8 @@
   color: var(--text-title-h6) !important;
 }
 
+
+
 /*-----------------------------------------*/
 /* End of main theme, extra functionality can be added below */
 
@@ -219,6 +221,14 @@
   opacity: 80% !important;
   width: 9px !important;
   visibility: visible !important;
+}
+
+/*
+Number line style in vim 
+*/
+.markdown-source-view.mod-cm6 .cm-gutters {
+  color: var(--text-title-h2) !important;
+  font-weight: bold;
 }
 
 /**********************/
@@ -264,12 +274,19 @@ code,
   background-color: var(--pre-code) !important;
   color: var(--text-coder) !important;
   bottom: 0px !important;
+  font-weight: bold;
 }
 
 /* code and code blocks for preview */
 .markdown-preview-view code {
-  font-size: 13.5px;
+  font-size: 12.5px;
+  font-weight: bold;
 }
+
+/* .cm-s-obsidian span.cm-inline-code{
+
+  
+} */
 
 /**********/
 /* tables */

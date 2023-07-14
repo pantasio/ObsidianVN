@@ -294,7 +294,8 @@ code,
 /* code and code blocks for preview */
 .markdown-preview-view code
 {
-  font-size: 13.5px;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 

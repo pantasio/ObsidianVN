@@ -1,14 +1,14 @@
-%%
-Status: InProgress 							// DONE, Delay
-tags: #newbie #InProgress 
+---
+Create: 2023-07-11
+tags: InProgress newbie 
+aliases:
+ChangeLog: 
+Original-post: "https://maclife.vn/qa-mot-so-cau-hoi-va-tra-loi-danh-cho-cac-ban-moi-dung-macos.html"
+Todo:
+- a
+- b
 
-TimeZone: 
-- HCM: 
-- Chicago: HCM trừ 11h ( 14-03 to 07-11); trừ 12h
-- Connecticut (CT): HCM trừ 11 
-- Singapore (SGT): HCM cộng 1h
-%%
-
+---
 
 Thường là các bản ghi âm của các bạn về những ý tưởng tuyệt vời bất chợt lóe lên mà bạn phải dùng phone để ghi lại. 
 
