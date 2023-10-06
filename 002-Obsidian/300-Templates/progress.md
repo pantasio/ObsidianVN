@@ -1,1 +1,0 @@
-<progress value="30" max="100"></progress>

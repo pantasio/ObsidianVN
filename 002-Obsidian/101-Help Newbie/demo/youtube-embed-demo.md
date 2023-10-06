@@ -24,7 +24,6 @@ Hướng dẫn:
 ![[youtube.gif]]
 
 Thành quả:
-<iframe width="750" height="450" src="https://www.youtube.com/watch?v=jXC9tuumjiA" title="YouTube video player" frameborder="0" autoplay="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
+![](https://www.youtube.com/watch?v=CBOv5ayFWcI)
 **Ghita is King**

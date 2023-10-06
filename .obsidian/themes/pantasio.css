@@ -830,3 +830,10 @@ li::marker {
   border: 0 !important;
   border-radius: 0px 0px 0px 0px !important;
 }
+
+.markdown-rendered mark {
+  background-color: var(--background-primary);
+  color: var(--green);
+  padding: 0.7em 0.7em;
+
+}
