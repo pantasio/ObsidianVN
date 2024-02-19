@@ -7,12 +7,12 @@
   "obsidian-day-planner",
   "templater-obsidian",
   "obsidian-relative-line-numbers",
-  "obsidian-emoji-toolbar",
   "obsidian-admonition",
   "obsidian-excalidraw-plugin",
   "dataview",
   "obsidian-outliner",
   "obsidian-budget-wysiwyg",
   "oz-image-plugin",
-  "obsidian-vale"
+  "obsidian-vale",
+  "obsidian-emoji-toolbar"
 ]

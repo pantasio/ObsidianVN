@@ -61,7 +61,22 @@
   --text-accent-hover: #d49335;
   /* ^^^ added for hover over bracket internal links */
   --inline-code: #83a598;
-  --code-block: #83a598;
+  
+  /*--code-block: #83a598;*/
+
+  --color-base-30: hsl(var(--bg-hue) var(--bg-sat) 22%);
+  --muted-border-color: var(--color-base-30);
+  --thin-muted-border: 1px solid var(--muted-border-color);
+  --bg5: var(--color-base-30);
+
+  .cm-s-obsidian .HyperMD-codeblock,
+  .cm-inline-code {
+  --codeblock-border: var(--thin-muted-border);
+  --codeblock-roundness: var(--radius-s);
+  --code-block-alt-bg: var(--bg5);
+  --slight-code-roundish: var(--radius-xs);
+  }
+
   --text-a: #f8c537;
   --interactive-accent: #f8c537;
   --text-accent: #f8c537;
@@ -80,6 +95,36 @@
   --text-faint: #f8c537;
   --tab-text-color: #f8c537;
 }
+
+
+
+/* <<< Code Block: Line Numbers in Edit Mode */
+body:not(.no-codeblock-line-numbers) .HyperMD-codeblock-begin {
+  counter-reset: codeblock-line-numbers;
+}
+
+body:not(.no-codeblock-line-numbers) .HyperMD-codeblock.cm-line:not(.HyperMD-codeblock-begin, .HyperMD-codeblock-end) {
+  padding-left: 2.8em;
+}
+
+body:not(.no-codeblock-line-numbers) .HyperMD-codeblock:not(.HyperMD-codeblock-begin, .HyperMD-codeblock-end)::before {
+  position: absolute;
+  left: 0;
+  width: 1.7em;
+  height: 100%;
+  /* ensures border closes w/ wrapped lines */
+  padding-right: 1.4em;
+  /* space is needed for collapse indicators */
+  font-size: 0.75em;
+  line-height: 2;
+  color: var(--text-muted);
+  text-align: right;
+  content: counter(codeblock-line-numbers);
+  counter-increment: codeblock-line-numbers;
+  background-color: var(--bg2);
+}
+
+/* code block end */
 
 .theme-dark .cm-s-obsidian span.obsidian-search-match-highlight {
   color: var(--text-normal);

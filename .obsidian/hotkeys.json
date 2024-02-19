@@ -160,15 +160,7 @@
       "key": "T"
     }
   ],
-  "obsidian-emoji-toolbar:emoji-picker:open-picker": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "O"
-    }
-  ],
+  "obsidian-emoji-toolbar:emoji-picker:open-picker": [],
   "workspace:toggle-stacked-tabs": [
     {
       "modifiers": [
@@ -214,6 +206,15 @@
         "Alt"
       ],
       "key": "L"
+    }
+  ],
+  "app:open-vault": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "O"
     }
   ]
 }
